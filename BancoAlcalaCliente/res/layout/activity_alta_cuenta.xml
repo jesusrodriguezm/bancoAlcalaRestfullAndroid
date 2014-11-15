@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CuentaAltaServicio" >
+
+    <TextView
+        android:id="@+id/inicio_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/inicio_bienvenida" />
+
+    <TextView
+        android:id="@+id/altaCuentaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inicio_bienvenida"
+        android:layout_below="@+id/inicio_bienvenida"
+        android:text="@string/altaCuentaTitulo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btAltaCuentaSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/altaCuentaPregunta"
+        android:layout_below="@+id/altaCuentaPregunta"
+        android:layout_marginLeft="28dp"
+        android:text="@string/si" />
+
+    <Button
+        android:id="@+id/btAltaCuentaNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/inicio_bienvenida"
+        android:layout_below="@+id/altaCuentaPregunta"
+        android:text="@string/no" />
+
+    <TextView
+        android:id="@+id/altaCuentaPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/altaCuentaTitulo"
+        android:layout_below="@+id/altaCuentaTitulo"
+        android:layout_marginTop="24dp"
+        android:text="@string/altaCuentaPregunta" />
+
+    <TextView
+        android:id="@+id/altaCuentaResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/altaCuentaPregunta"
+        android:layout_below="@+id/btAltaCuentaSi"
+        android:layout_marginTop="16dp"
+        android:text="@string/altaCuentaTextoResultadoInicial" />
+
+</RelativeLayout>

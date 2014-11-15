@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jrm.bancoAlcalaCliente"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.jrm.bancoAlcalaCliente.modelo.utiles.MiAplicacion"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.AltaCuenta"
+            android:label="@string/title_activity_alta_cuenta"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.Inicio" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.AccesoCuenta"
+            android:label="@string/title_activity_acceso_cuenta"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.Inicio" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.VerCuentas"
+            android:label="@string/title_activity_ver_cuentas"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.Inicio" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpcionesCuenta"
+            android:label="@string/title_activity_opciones_cuenta"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.AccesoCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.AccesoCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.IngresoEfectivo"
+            android:label="@string/title_activity_ingreso_efectivo"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpCuentaRetiroEfectivo"
+            android:label="@string/title_activity_op_cuenta_retiro_efectivo"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpCuentaTransferencia"
+            android:label="@string/title_activity_op_cuenta_transferencia"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpCuentaRecargaTelefonica"
+            android:label="@string/title_activity_op_cuenta_recarga_telefonica"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpCuentaMovimiento"
+            android:label="@string/title_activity_op_cuenta_movimiento"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+        <activity
+            android:name="com.jrm.bancoAlcalaCliente.OpCuentaSaldo"
+            android:label="@string/title_activity_op_cuenta_saldo"
+            android:parentActivityName="com.jrm.bancoAlcalaCliente.OpcionesCuenta" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jrm.bancoAlcalaCliente.OpcionesCuenta" />
+        </activity>
+    </application>
+
+</manifest>

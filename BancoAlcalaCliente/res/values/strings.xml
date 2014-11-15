@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banco Alcalá JRM</string>
+    <string name="action_settings">Settings</string>
+    <string name="inicio_bienvenida">Banco de Alcalá. Trabajo Final PAW.</string>
+    <string name="inicio_seleccioneUnaOpcion">Seleccione una opción:</string>
+    <string name="btAltaCuenta">Alta de Cuenta</string>
+    <string name="btAccesoCuenta">Acceso Cuenta</string>
+    <string name="btVerCuentas">Ver Cuentas</string>
+    <string name="title_activity_alta_cuenta">AltaCuenta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_acceso_cuenta">AccesoCuenta</string>
+    <string name="inicioTitulo">INICIO</string>
+    <string name="title_activity_ver_cuentas">Ver Cuentas</string>
+    <string name="title_activity_opciones_cuenta">Opciones Cuenta</string>
+    <string name="title_activity_ingreso_efectivo">Ingreso Efectivo</string>
+    <string name="title_activity_op_cuenta_retiro_efectivo">Retiro Efectivo</string>
+    <string name="title_activity_op_cuenta_transferencia">Transferencia</string>
+    <string name="title_activity_op_cuenta_recarga_telefonica">Recarga Telefonica</string>
+    <string name="title_activity_op_cuenta_movimiento">Movimientos</string>
+    <string name="title_activity_op_cuenta_saldo">Saldo</string>
+    <string name="accesoCuentaTitulo">Acceso a Cuenta</string>
+    <string name="altaCuentaTitulo">Alta de Cuenta</string>
+    <string name="ingresoEfectivoTitulo">Ingreso Efectivo</string>
+    <string name="movimientosTitulo">Movimientos</string>
+    <string name="recargaTelefonicaTitulo">Recarga Telefónica</string>
+    <string name="retiroEfectivoTitulo">Retiro Efectivo</string>
+    <string name="saldoTitulo">Saldo</string>
+    <string name="transferenciaTitulo">Transferencia</string>
+    <string name="opcionesCuentaTitulo">Opciones</string>
+    <string name="cuentasTitulo">Cuentas</string>
+    <string name="salir">Salir</string>
+    <string name="altaCuentaPregunta">¿Está seguro de que desea dar de alta una nueva cuenta?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="altaCuentaTextoResultadoInicial">Cuenta sin crear.</string>
+    <string name="accesoCuentaTxtNumCuenta">Número de cuenta:</string>
+    <string name="accesoCuentaTxtPin">PIN:</string>
+    <string name="btAccesoCuentaEntrar">Entrar</string>
+    <string name="accesoCuentaError">Cuenta / PIN incorrectos, vuelva a intentarlo.</string>
+    <string name="digiteCantidad">Digite la cantidad:</string>
+    <string name="realizarAccion">Realizar</string>
+    <string name="montoDebeSerPositivo">El monto debe ser Positivo.</string>
+    <string name="transferenciaCuentaDestino">Digite Cuenta destino:</string>
+    <string name="recargaTelefonicaDigiteTelefono">Digite Teléfono:</string>
+
+</resources>

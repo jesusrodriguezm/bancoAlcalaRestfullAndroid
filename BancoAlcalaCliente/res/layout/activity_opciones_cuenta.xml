@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:name="OpcionesCuenta"
+    tools:context=".OpcionesCuenta" >
+
+    <TextView
+        android:id="@+id/inicio_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/inicio_bienvenida" />
+
+    <TextView
+        android:id="@+id/opcionesCuentaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inicio_bienvenida"
+        android:layout_below="@+id/inicio_bienvenida"
+        android:text="@string/opcionesCuentaTitulo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btIngresoEfectivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/opcionesCuentaTitulo"
+        android:layout_below="@+id/opcionesCuentaTitulo"
+        android:text="@string/ingresoEfectivoTitulo" />
+
+    <Button
+        android:id="@+id/btRetiroEfectivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btIngresoEfectivo"
+        android:layout_below="@+id/btIngresoEfectivo"
+        android:text="@string/retiroEfectivoTitulo" />
+
+    <Button
+        android:id="@+id/btTransferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btRetiroEfectivo"
+        android:layout_below="@+id/btRetiroEfectivo"
+        android:text="@string/transferenciaTitulo" />
+
+    <Button
+        android:id="@+id/btMovimientos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btRecargaTelefonica"
+        android:layout_below="@+id/btRecargaTelefonica"
+        android:text="@string/movimientosTitulo" />
+
+    <Button
+        android:id="@+id/btRecargaTelefonica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btTransferencia"
+        android:layout_centerVertical="true"
+        android:text="@string/recargaTelefonicaTitulo" />
+
+    <Button
+        android:id="@+id/btSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btMovimientos"
+        android:layout_below="@+id/btMovimientos"
+        android:text="@string/saldoTitulo" />
+
+    <Button
+        android:id="@+id/btSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btSaldo"
+        android:layout_below="@+id/btSaldo"
+        android:text="@string/salir" />
+
+</RelativeLayout>
